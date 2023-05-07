@@ -1,0 +1,34 @@
+{
+  "name": "project-1-to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.20",
+    "react": "^17.0.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "cd front_end && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lamya-Alshatri/Project-1-To-Do-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lamya-Alshatri/Project-1-To-Do-list/issues"
+  },
+  "homepage": "https://github.com/Lamya-Alshatri/Project-1-To-Do-list#readme",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.2.0",
+    "concurrently": "^7.2.1"
+  }
+}
